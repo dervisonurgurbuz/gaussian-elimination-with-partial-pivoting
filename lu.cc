@@ -109,6 +109,7 @@ int main(int argc, char **argv)
     }
 
     cout<<"x:  "<<endl;
+    /*
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < 5; j++)
@@ -116,7 +117,7 @@ int main(int argc, char **argv)
             printf("%f ", x[i][j]);
         }
         cout << "\n";
-    }
+    }*/
 
     float a[n][n] = {};
 
@@ -134,25 +135,25 @@ int main(int argc, char **argv)
 
 
     cout<< "Matrix A"<< endl;
-    for (i = 0; i < n; i++)
+   /* for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
         {
             printf("%f ", a[i][j]);
         }
         cout << "\n";
-    }
+    }*/
     partialPivoting(a, x, e);
     cout<< "A after partial pivoting"<<endl;
-    for (i = 0; i < n; i++)
+    /*for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
         {
             printf("%f ", a[i][j]);
         }
         cout << "\n";
-    }
-    cout<<"x after partial pivoting:  "<<endl;
+    }*/
+   /* cout<<"x after partial pivoting:  "<<endl;
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < 5; j++)
@@ -160,7 +161,7 @@ int main(int argc, char **argv)
             printf("%f ", x[i][j]);
         }
         cout << "\n";
-    }
+    }*/
 
     /*for (i = 0; i < n; i++)
     {
@@ -174,9 +175,9 @@ int main(int argc, char **argv)
 
     lu(a, l, u, n);
     cout << "\nL Decomposition\n\n";
-    output(l, n);
+    //output(l, n);
     cout << "\nU Decomposition\n\n";
-    output(u, n);
+    //output(u, n);
 
     auto factorization_end_time = std::chrono::high_resolution_clock::now();
 
