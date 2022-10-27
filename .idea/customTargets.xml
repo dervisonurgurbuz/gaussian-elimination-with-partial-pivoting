@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="5c7bddc9-e5e6-451b-b788-ac0737a2fc9c" name="Target" defaultType="MAKE">
+      <configuration id="978daa2b-79d6-42ef-9931-55acf5696c12" name="Target">
+        <build type="MAKE">
+          <make targetName="lu.cc" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>
